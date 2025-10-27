@@ -3,10 +3,10 @@ import React from 'react'
 function Header() {
 
   const navLinks = [
-    { herf: '/', label: 'Home' },
-    { herf: '/#About', label: 'About' },
-    { herf: '/#projcts', label: 'Projcts' },
-    { herf: '/#Contact', label: 'Contact' },
+    { herf: '', label: 'Home' },
+    { herf: '#About', label: 'About' },
+    { herf: '#projcts', label: 'Projcts' },
+    { herf: '#Contact', label: 'Contact' },
   ];
 
   return (
