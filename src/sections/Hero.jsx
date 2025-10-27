@@ -1,7 +1,7 @@
 import React from 'react';
 import githubIcon from '../assets/github.png';
 import linkdinIcon from '../assets/linkdin.png';
-import prsonImg from '../assets/prsnlImg.jpg';
+import prsonImg from '../assets/images.jpeg';
 import {
   html,
   css,
