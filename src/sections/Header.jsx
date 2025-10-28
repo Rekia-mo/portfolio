@@ -13,7 +13,7 @@ function Header() {
     <>
       <header className='fixed top-0 left-0 z-50 sm:px-15 px-4 py-4 w-full bg-white'>
         <nav className='flex flex-row justify-between items-center'>
-          <a href="/" className='font-bold text-[20px]'>
+          <a href="" className='font-bold text-[20px]'>
             Rekia.dev
           </a>
 
