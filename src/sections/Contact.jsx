@@ -11,7 +11,7 @@ function Contact() {
       <div className='flex flex-col justify-center items-start gap-6'>
 
         <div className='flex flex-col justify-center items-start gap-2'>
-          <p className='font-extrabold text-teal-500 text-[15px]'>
+          <p className='font-extrabold text-teal-500 text-[15px] max-lg:text-[20px]'>
             CONTACT
           </p>
           <p className='font-extrabold  text-[20px]'>

@@ -14,13 +14,12 @@ function App() {
   return (
     <>
       <Header />
-      <main className='overflow-scroll overflow-x-hidden w-full [&::-webkit-scrollbar]:hidden mt-15 '>
+      <main className='overflow-scroll overflow-x-hidden w-full [&::-webkit-scrollbar]:hidden  max-lg:mt-15 px-4'>
         <Hero />
         <About/>
         <Projcts />
         <Contact />
       </main>
-
     </>
   )
 }

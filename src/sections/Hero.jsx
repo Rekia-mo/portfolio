@@ -33,18 +33,18 @@ function Hero() {
   ]
   return (
     <>
-      <section className='h-[90vh] w-full flex justify-center items-center '>
+      <section className='min-h-screen w-full flex justify-center items-center lg:h-[90vh]'>
 
-        <div className='flex flex-col gap-6 justify-center items-center max-lg:mt-50 max-lg:gap-2'>
+        <div className='flex flex-col gap-6 justify-center items-center max-lg:gap-7'>
 
           <div className='flex flex-row justify-center items-center gap-10 max-lg:flex-col-reverse '>
 
-            <div className='flex flex-col items-start justify-center gap-7 w-100 max-lg:gap-5'>
-              <p className='font-extrabold text-4xl max-lg:text-3xl'>
+            <div className='flex flex-col items-start justify-center gap-7 w-100 max-lg:gap-5 max-lg:items-center'>
+              <p className='font-extrabold text-4xl max-lg:text-4xl'>
                 Full-Stack Developer
               </p>
 
-              <p className='text-gray-500 text-[14px] max-lg:[12px]'>
+              <p className='text-gray-500 text-[14px] max-lg:[15px] max-lg:text-center'>
                 Hi, I’m Rekia Mansour Ouahchia, a passionate Full-Stack Developer based in Algiers, Algeria 📍.
               </p>
 
@@ -79,7 +79,7 @@ function Hero() {
 
           <div className='flex flex-row items-center justify-center gap-5 max-lg:flex-col max-lg:gap-3 max-lg:mx-11  '>
 
-            <p className='font-bold mt-7 text-[18px]'>
+            <p className='font-bold mt-7 text-[18px] max-lg:text-[20px]'>
               Tech Stack &nbsp;&nbsp; |
             </p>
 
@@ -104,7 +104,6 @@ function Hero() {
                 </li>
               ))}
             </ul>
-
 
           </div>
         </div>
