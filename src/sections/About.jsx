@@ -4,11 +4,11 @@ import deskImg from '../assets/desk.jpg'
 function About() {
   return (
     <>
-      <section id='About' className='min-h-screen w-full flex justify-center items-center lg:h-[90vh]'>
+      <section id='About' className='min-h-screen w-full flex justify-center items-center lg:h-[90vh] max-lg:mb-30'>
 
         <div className='flex flex-row justify-center items-center gap-10  max-lg:flex-col-reverse '>
 
-          <div className='rounded-4xl overflow-hidden w-80 h-70 flex justify-center items-center max-lg:w-95 max-lg:h-60 '>
+          <div className='rounded-4xl overflow-hidden w-100 h-90 flex justify-center items-center max-lg:w-95 max-lg:h-60 '>
             <img src={deskImg} alt="deskImg" className='w-full h-full object-cover' />
           </div>
 
@@ -22,12 +22,14 @@ function About() {
             </p>
 
             <p className='text-gray-600 text-[16px] max-lg:text-[18px]'>
-              As a Full-Stack Developer, I have strong skills in HTML, CSS, JavaScript, React, Tailwind, Node.js, Express, and MongoDB. I build and maintain responsive websites that give users a smooth and enjoyable experience.
-              My focus is on creating dynamic and engaging interfaces by writing clean, optimized code and using modern tools and techniques.
-              I also enjoy working with other developers and teams to build high-quality and powerful web applications.
+              As a Full-Stack Developer, I have strong skills in HTML, CSS, JavaScript, React, Tailwind, Node.js, Express, and MongoDB. I build and maintain responsive and secure web applications that work smoothly for both users and admins.
+              <br />
+              My focus is on creating dynamic interfaces on the front end, while also developing efficient APIs, handling databases, and managing authentication and server logic on the back end. I write clean, optimized code using modern tools and best practices.
+              <br />
+              I enjoy collaborating with teams and working on complete solutions to deliver high-quality, scalable web applications.
             </p>
           </div>
-        </div>   
+        </div>
       </section>
     </>
   )

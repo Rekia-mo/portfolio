@@ -15,9 +15,9 @@ function App() {
     <>
       <Header />
       <main className='overflow-scroll overflow-x-hidden w-full [&::-webkit-scrollbar]:hidden  max-lg:mt-15 px-4'>
-        <Hero />
+        <Hero/>
         <About/>
-        <Projcts />
+        <Projcts/>
         <Contact />
       </main>
     </>

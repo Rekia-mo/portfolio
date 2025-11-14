@@ -33,7 +33,7 @@ function Hero() {
   ]
   return (
     <>
-      <section className='min-h-screen w-full flex justify-center items-center lg:h-[90vh]'>
+      <section className='min-h-screen w-full flex justify-center items-center lg:h-[90vh] max-lg:mb-30 max-lg:mt-10'>
 
         <div className='flex flex-col gap-6 justify-center items-center max-lg:gap-7'>
 
